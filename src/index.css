@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&display=swap');
+@import 'tailwindcss';
+
+@theme inline {
+  ---font-plus-jakarta: 'Plus Jakarta Sans', sans-serif;
+  --background-gradient-pink: linear-gradient(to right, #f02aa6, #ff6f48);
+  --background-gradient-pink-light:
+    linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), var(--background-gradient-pink);
+  --background-gradient-purple: linear-gradient(to right, #4851ff, #f02aa6);
+  --background-gradient-purple-light:
+    linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), var(--background-gradient-purple);
+  /* Blue 계열 */
+  --color-blue-900: #13183f;
+  --color-blue-600: #666ca3;
+
+  /* Pink 계열 */
+  --color-pink-600: #f74780;
+  --color-pink-300: #ffa7c3;
+
+  /* Grey 계열 */
+  --color-grey: #83869a;
+}
+
+@utility gradient-pink {
+  background: var(--background-gradient-pink);
+}
+
+@utility gradient-pink-light {
+  background: var(--background-gradient-pink-light);
+}
+
+@utility gradient-purple {
+  background: var(--background-gradient-purple);
+}
+
+@utility gradient-purple-light {
+  background: var(--background-gradient-purple-light);
+}
+
+@utility typo-1 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 1.2; /* 120% */
+  letter-spacing: 0px;
+}
+
+@utility typo-2 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 1.2; /* 120% */
+  letter-spacing: 0px;
+}
+
+@utility typo-3 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 1.2; /* 120% */
+  letter-spacing: 0px;
+}
+
+@utility typo-4 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 1.2; /* 120% */
+  letter-spacing: 0px;
+}
+
+@utility typo-5 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0px;
+}
+
+@utility typo-6 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0px;
+}
+
+@utility typo-7 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0px;
+}
