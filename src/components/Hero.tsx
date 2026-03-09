@@ -19,7 +19,7 @@ export default function Hero() {
         {/* Maximize~ */}
         <div className={cn('w-full', 'flex flex-col gap-[40px]')}>
           <h1 className={cn('typo-1 text-[40px] xl:text-[56px] text-blue-900')}>Maximize skill, minimize budget</h1>
-          <p className={cn('typo-5 text-grey')}>
+          <p className={cn('xl:max-w-[457px] typo-5 text-grey')}>
             Our modern courses across a range of in-demand skills will give you the knowledge you need to live the life
             you want.
           </p>
@@ -36,8 +36,8 @@ export default function Hero() {
               src={heroMobile}
               alt="illustration"
               className={cn(
-                'md:max-w-none md:h-[700px] xl:h-[860px]',
-                'md:absolute md:top-[-220px] xl:top-[-330px] md:left-0 xl:left-[60px]',
+                'md:max-w-none md:h-[700px] xl:h-[900px]',
+                'md:absolute md:top-[-220px] xl:top-[-380px] md:left-0 xl:left-[30px]',
                 '-z-1',
               )}
             />

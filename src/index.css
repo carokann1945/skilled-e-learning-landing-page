@@ -3,10 +3,10 @@
 
 @theme inline {
   ---font-plus-jakarta: 'Plus Jakarta Sans', sans-serif;
-  --background-gradient-pink: linear-gradient(to right, #f02aa6, #ff6f48);
+  --background-gradient-pink: linear-gradient(to top, #f02aa6, #ff6f48);
   --background-gradient-pink-light:
     linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), var(--background-gradient-pink);
-  --background-gradient-purple: linear-gradient(to right, #4851ff, #f02aa6);
+  --background-gradient-purple: linear-gradient(to top, #4851ff, #f02aa6);
   --background-gradient-purple-light:
     linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), var(--background-gradient-purple);
   /* Blue 계열 */
