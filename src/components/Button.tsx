@@ -10,14 +10,14 @@ interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
 
 const variantStyles: Record<ButtonVariant, string> = {
   black:
-    'cursor-pointer bg-[#13183F] hover:bg-[#666CA3] typo-7 text-white px-[32px] py-[16px] md:px-[24px] md:py-[12px] xl:px-[32px] xl:py-[16px] overflow-hidden rounded-[28px]',
+    'cursor-pointer bg-[#13183F] hover:bg-[#666CA3] typo-7 text-white px-[32px] py-[16px] md:px-[24px] md:py-[12px] xl:px-[32px] xl:py-[16px] overflow-hidden rounded-[28px] shrink-0',
   orange:
-    'cursor-pointer gradient-pink hover:gradient-pink-light typo-7 text-white px-[32px] py-[16px] md:px-[24px] md:py-[12px] xl:px-[32px] xl:py-[16px] overflow-hidden rounded-[28px]',
+    'cursor-pointer gradient-pink hover:gradient-pink-light typo-7 text-white px-[32px] py-[16px] md:px-[24px] md:py-[12px] xl:px-[32px] xl:py-[16px] overflow-hidden rounded-[28px] shrink-0',
   purple:
-    'cursor-pointer gradient-purple hover:gradient-purple-light typo-7 text-white px-[32px] py-[16px] md:px-[24px] md:py-[12px] xl:px-[32px] xl:py-[16px] overflow-hidden rounded-[28px]',
-  link: 'cursor-pointer w-[104px] h-[28px] typo-7 text-pink-600 hover:text-pink-300',
+    'cursor-pointer gradient-purple hover:gradient-purple-light typo-7 text-white px-[32px] py-[16px] md:px-[24px] md:py-[12px] xl:px-[32px] xl:py-[16px] overflow-hidden rounded-[28px] shrink-0',
+  link: 'cursor-pointer w-[104px] h-[28px] typo-7 text-pink-600 hover:text-pink-300 shrink-0',
 };
 
-export default function Button({ variant = 'black' }: ButtonProps) {
-  return <button className={cn(variantStyles[variant])}>Get Started</button>;
+export default function Button({ variant = 'black', className }: ButtonProps) {
+  return <button className={cn(variantStyles[variant], className)}>Get Started</button>;
 }

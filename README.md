@@ -1,6 +1,6 @@
 # Live site url
 
-https://skilled-e-learning-landing-page-lovat.vercel.app/
+https://skilled-e-learning-landing-page-ebon-six.vercel.app/
 
 # Frontend Mentor - Skilled e-learning landing page
 

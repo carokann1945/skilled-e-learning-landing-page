@@ -10,8 +10,8 @@ interface LogoProps {
 }
 
 const variantStyles: Record<LogoVariant, string> = {
-  dark: 'w-[79.29px] h-[20px] xl:w-[111px] xl:h-[28px]',
-  light: 'w-[79.29px] h-[20px] xl:w-[111px] xl:h-[28px]',
+  dark: 'w-[79.29px] h-[20px] xl:w-[111px] xl:h-[28px] shrink-0',
+  light: 'w-[79.29px] h-[20px] xl:w-[111px] xl:h-[28px] shrink-0',
 };
 
 export default function Logo({ variant = 'dark', className }: LogoProps) {
